@@ -1,7 +1,7 @@
 //your JS code here. If required.
 https://www.svgrepo.com/show/345221/three-dots.svg
 
-  document.addEventListener('DOMContentLoaded', () => {
+  
             const usernameInput = document.getElementById('username');
             const passwordInput = document.getElementById('password');
             const rememberCheckbox = document.getElementById('checkbox');
@@ -37,4 +37,3 @@ https://www.svgrepo.com/show/345221/three-dots.svg
                 if (rememberCheckbox.checked) {
                     existingButton.style.display = 'inline-block';
                 }
-            });
